@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-weight: bold;
+    padding-top: 20px;
+    background-color: hsl(257, 100%, 97%);
+}
+
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    margin: auto;
+}
+
+#palleteContainer {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+   
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.palleteItem {
+    transition: background-color .5s;
+}
+
+.palleteItem span {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: inline-block;
+    min-width: 80px;
+}
+
+button {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    background: #000;
+    margin-bottom: 100px;
+}
